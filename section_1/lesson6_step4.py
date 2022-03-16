@@ -6,7 +6,7 @@ link = "http://suninjuly.github.io/find_link_text"
 
 try:
     browser = webdriver.Chrome()
-    browser.get("http://suninjuly.github.io/find_link_text")
+    browser.get(link)
     lnk = str(math.ceil(math.pow(math.pi, math.e)*10000))
     link = browser.find_element_by_link_text(lnk)
     link.click()
