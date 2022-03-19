@@ -1,3 +1,4 @@
+# Задание: кликаем по checkboxes и radiobuttons (капча для роботов)
 import math
 from selenium import webdriver
 import time

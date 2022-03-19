@@ -1,3 +1,4 @@
+# работа с выпадающим списком
 from selenium import webdriver
 import time
 from selenium.webdriver.support.ui import Select

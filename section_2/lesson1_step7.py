@@ -1,3 +1,4 @@
+# поиск сокровища с помощью get_attribute
 from selenium import webdriver
 import math
 import time

@@ -1,3 +1,4 @@
+# использование метода find_elements_by
 from selenium import webdriver
 import time
 

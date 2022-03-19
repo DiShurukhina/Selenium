@@ -1,3 +1,4 @@
+# переход на новую вкладку
 from selenium import webdriver
 import time
 import math

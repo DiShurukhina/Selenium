@@ -1,3 +1,5 @@
+# модальные окна
+# принимаем alert
 from selenium import webdriver
 import time
 import math

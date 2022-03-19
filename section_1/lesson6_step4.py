@@ -1,3 +1,4 @@
+# поиск элементов с помощью Selenium
 from selenium import webdriver
 import time 
 import math

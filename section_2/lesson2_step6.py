@@ -1,3 +1,4 @@
+# Задание на execute_script
 from selenium import webdriver
 import math
 import time
@@ -15,6 +16,7 @@ try:
     answer = browser.find_element_by_id("answer")
     answer.send_keys(y)
     button = browser.find_element_by_tag_name("button")
+    # исполняется js-скрипт, который скроллит страницу до появления текстового поля для ввода значения
     browser.execute_script("return arguments[0].scrollIntoView(true);", button)
     button.click()
     option1 = browser.find_element_by_id("robotCheckbox")

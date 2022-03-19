@@ -1,3 +1,4 @@
+# поиск элемента по тексту в ссылке
 import math
 from selenium import webdriver
 import time

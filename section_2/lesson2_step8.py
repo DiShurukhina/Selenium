@@ -1,3 +1,4 @@
+# загрузка файла
 from selenium import webdriver
 import math
 import time
@@ -15,8 +16,10 @@ try:
     input3.send_keys('Dinara')
     # ищу кнопку загрузки файла
     button = browser.find_element_by_id('file')
-    current_dir = os.path.abspath(os.path.dirname(__file__))    # получаем путь к директории текущего исполняемого файла 
-    file_path = os.path.join(current_dir, 'test_upload.txt')    # добавляем к этому пути имя файла 
+    # получаем путь к директории текущего исполняемого файла 
+    current_dir = os.path.abspath(os.path.dirname(__file__)) 
+    # добавляем к этому пути имя файла   
+    file_path = os.path.join(current_dir, 'test_upload.txt')     
     button.send_keys(file_path)
     submit = browser.find_element_by_css_selector('button[type="submit"]')
     submit.click()
