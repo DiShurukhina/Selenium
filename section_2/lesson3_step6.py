@@ -12,7 +12,7 @@ try:
     #жму кнопку для перехода на новую вкладку
     trollface = browser.find_element_by_class_name('trollface')
     trollface.click()
-    # прехожу на новую вкладку
+    # перехожу на новую вкладку
     first_window = browser.window_handles[0]
     new_window = browser.window_handles[1]
     browser.switch_to_window(new_window)
